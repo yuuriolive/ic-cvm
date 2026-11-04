@@ -1,0 +1,17 @@
+﻿=== EVIDENCIA 1: TABELAS POSTGRESQL ===
+                  List of relations
+ Schema |          Name           | Type  |   Owner   
+--------+-------------------------+-------+-----------
+ public | chunks_regulatorios     | table | rag_admin
+ public | documentos_regulatorios | table | rag_admin
+(2 rows)
+
+
+=== EVIDENCIA 2: HASH SHA-256 ===
+Arquivo: cad_cia_aberta.csv | SHA-256: 76857def1654defbdd398f5898f2d07cebb7d3e33c93db8ee652b23dd8c9ce59
+Arquivo: resol044consolid.docx | SHA-256: 946d5e0f70f92ae95a69eadf1cb8506100bf173b8f76ea4c970fe8f3d17c6903
+Arquivo: resol044consolid.pdf | SHA-256: b6f0d6b751860e9937870e57173dd663495b15ef50f22f440224f2f2881c2977
+Arquivo: resol080consolid.docx | SHA-256: fe12399cd1b8cdc667c87a9a65b2f319b714d87178b1170ca3acf1f5fad76824
+Arquivo: resol080consolid.pdf | SHA-256: 5a0f0078c65b815f48e0c4c9d46847f27e4ac7d370ef3389826fef68581ff7de
+Arquivo: resol175consolid.docx | SHA-256: c1bc7c2bf6fa1a245c3340aaf42fb87422f76f27f08a13387e8971c712986824
+Arquivo: resol175consolid.pdf | SHA-256: 8921f2352cd918c7640463bebe94a87cbe474774e7ba5bd7a3d1155d1b3d3db8
