@@ -1,0 +1,35 @@
+[project]
+name = "ic-cvm"
+version = "0.1.0"
+description = "Projeto de IC - RAG sobre normas regulatórias da CVM"
+requires-python = ">=3.11"
+
+# ---------- Black (formatação) ----------
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+# ---------- Ruff (lint) ----------
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle (erros)
+    "W",   # pycodestyle (avisos)
+    "F",   # pyflakes
+    "I",   # isort (ordem dos imports)
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade
+    "SIM", # flake8-simplify
+]
+# E501 (linha longa) fica a cargo do Black
+ignore = ["E501"]
+
+# ---------- Pytest (testes) ----------
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-v"
