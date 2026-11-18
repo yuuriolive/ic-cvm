@@ -43,3 +43,7 @@ def test_gerar_hashes_ignora_subpastas_e_ocultos(tmp_path):
 
 def test_gerar_hashes_pasta_vazia(tmp_path):
     assert gerar_hashes(tmp_path) == {}
+
+
+def test_gerar_hashes_pasta_inexistente(tmp_path):
+    assert gerar_hashes(tmp_path / "dados_cadastrais") == {}
